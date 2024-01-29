@@ -96,6 +96,7 @@ if(age > 18){
 else{
     console.log("You're NOT allowed in here!");
 }
+// WHILE LOOP
 
 // while (condition) {
     // Block of code
@@ -106,8 +107,27 @@ while(i < 10) {
     console.log(i);
     i++; //iterations
 }
+// FOR LOOP
+
 // for([initialization]; [condition]; [final-expression]) {
     //Code
 // }
 
-// for(let i = 0; )
+for(let i = 0; i < 10; i++) {
+    console.log(i);
+}
+
+// FUNCTIONS
+console.log("Functions");
+// It's a block of code designed to perform a particular task
+// A function declaration(Defining a function)
+// and a Function call(Calling/Executing a function)
+
+// function name(params) {
+//     CodeBlock
+// }
+let number = 7;
+function square(number){
+    return number * number;
+}
+console.log(square(number));
