@@ -96,38 +96,62 @@ if(age > 18){
 else{
     console.log("You're NOT allowed in here!");
 }
-// WHILE LOOP
-
-// while (condition) {
-    // Block of code
-// }
+"WHILE LOOP"
+console.log("While loop")
+"Syntax"
+while ("condition") {
+    //Statements
+}
 let i = 0;
 
 while(i < 10) {
     console.log(i);
     i++; //iterations
 }
-// FOR LOOP
-
+"FOR LOOP"
+console.log("For loop")
 // for([initialization]; [condition]; [final-expression]) {
     //Code
 // }
-
+"Syntax"
 for(let i = 0; i < 10; i++) {
     console.log(i);
 }
 
-// FUNCTIONS
+"FUNCTIONS"
 console.log("Functions");
-// It's a block of code designed to perform a particular task
+"It's a block of code designed to perform a particular task"
 // A function declaration(Defining a function)
-// and a Function call(Calling/Executing a function)
-
-// function name(params) {
-//     CodeBlock
-// }
-let number = 7;
+// and a Function call(Calling/Executing a function/invoking)
+"Syntax"
+function name(params) {
+    CodeBlock
+}
+// let number = 7;
 function square(number){
     return number * number;
 }
-console.log(square(number));
+console.log(square(9));
+"Number inside the function call is called an argument(arguments can be declared before or passed)"
+
+console.log("Function Declaration is simply defining a function");
+"Syntax"
+function name(params){
+    Statement
+}
+console.log("Function Expression is simply storing a function inside a variable");
+"Syntax"
+let double = function name(params){
+    Statements
+}
+
+console.log("Arrow Functions")
+"Syntax"
+let name1 = (param2, param3) => Expression;
+let name2 = (param1, param2) => {
+    Statements
+}
+recap : "A function is a piece of code that performs a specific task."
+
+"Function invoking - Calling the declared function"
+console.log("Invoking")
