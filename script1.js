@@ -33,3 +33,7 @@ console.log(fleet1.join(", "));       //Converting array into string but adds sp
 console.log(fleet1);
 console.log(fleet1.copyWithin(3, 0));  //copies part of array to another starting position
 console.log(fleet1.copyWithin(2, 0, 5));
+
+const arr = [[1, 2], [3, 4],  [5, 6, 7]];
+const newArr = arr.flat();            //flattens nested arrays upto depth provided
+console.log(newArr);
