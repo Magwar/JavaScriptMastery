@@ -37,3 +37,12 @@ console.log(fleet1.copyWithin(2, 0, 5));
 const arr = [[1, 2], [3, 4],  [5, 6, 7]];
 const newArr = arr.flat();            //flattens nested arrays upto depth provided
 console.log(newArr);
+
+const companyEmployee = ["William", "Joseph", "Mike", "Joan", "Jane"];
+console.log(companyEmployee);
+console.log(companyEmployee.splice(2, 0, "John", "Lydia"));      //Returns empty array if no arguments are passed
+// console.log(employees);
+
+const months = [["Jan", "Feb", "Mar"], ["April", "May"], ["Oct", "Dec"]];
+months.splice(2, 0, "June", "July"); //Inserts elements at a particular index in array
+console.log(months);         //After splicing
