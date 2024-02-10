@@ -46,3 +46,12 @@ console.log(companyEmployee.splice(2, 0, "John", "Lydia"));      //Returns empty
 const months = [["Jan", "Feb", "Mar"], ["April", "May"], ["Oct", "Dec"]];
 months.splice(2, 0, "June", "July"); //Inserts elements at a particular index in array
 console.log(months);         //After splicing
+
+//ARRAY FINDS AND SEARCH METHOD
+const fruits = ['apple', 'banana', 'cherry', 'date', 'avocado','cherry'];
+const num = [9,8,7,6,5,4,6,3,2,1];
+console.log(num.indexOf(6));        //Returns the first occurrence of  an element in an array
+//If the item is present more than once, it returns the position of the first occurrence
+console.log(num.lastIndexOf(-6));    //Returns -1 if the item is not found
+
+console.log(fruits.lastIndexOf('cherry')); // Returns the last occurrence of an element in an array
