@@ -50,8 +50,17 @@ console.log(months);         //After splicing
 //ARRAY FINDS AND SEARCH METHOD
 const fruits = ['apple', 'banana', 'cherry', 'date', 'avocado','cherry'];
 const num = [9,8,7,6,5,4,6,3,2,1];
-console.log(num.indexOf(6));        //Returns the first occurrence of  an element in an array
+console.log(num.indexOf(6));
+//Returns the first occurrence of  an element in an array
 //If the item is present more than once, it returns the position of the first occurrence
-console.log(num.lastIndexOf(-6));    //Returns -1 if the item is not found
-
-console.log(fruits.lastIndexOf('cherry')); // Returns the last occurrence of an element in an array
+console.log(num.lastIndexOf(-6));
+//Returns -1 if the item is not found
+console.log(fruits.lastIndexOf('cherry'));
+// Returns the last occurrence of an element in an array
+console.log(fruits.includes('grape'));
+//Checks whether an array contains a certain value
+//returns true or false
+console.log(fruits.find((item) => item === 'cherry') );
+//Returns the value of the first element that satisfies the condition
+console.log(num.find((val) => val === 57));
+//If no value satisfies the condition, undefined is returned
