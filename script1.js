@@ -67,3 +67,12 @@ console.log(fruits.find((item) => item === 'cherry') );
 //Returns the value of the first element that satisfies the condition //cherry
 console.log(num.find((val) => val === 57));
 //If no value satisfies the condition, undefined is returned //undefined
+
+
+
+//------------------LOOPS------------------------
+const cats = ["Leopard", "Serval", "Jaguar", "Tiger", "Caracal", "Lion"];
+
+for (const cat of cats) {
+  console.log(cat);
+}                   //Prints each element one by one using for...of loop
