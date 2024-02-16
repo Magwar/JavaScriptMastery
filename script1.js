@@ -71,8 +71,10 @@ console.log(num.find((val) => val === 57));
 
 
 //------------------LOOPS------------------------
-const cats = ["Leopard", "Serval", "Jaguar", "Tiger", "Caracal", "Lion"];
+const rides = ["Honda", "Volvo", "Jaguar", "Bmw", "Vw", "Audi"];
 
-for (const cat of cats) {
-  console.log(cat);
-}                   //Prints each element one by one using for...of loop
+for (const car of rides) {
+  console.log(car);
+} //Prints each element one by one using for...of loop
+//The variable car takes on the values Honda, Volvo etc., one after another
+//Creates a var car that saves each array element
