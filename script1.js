@@ -71,10 +71,22 @@ console.log(num.find((val) => val === 57));
 
 
 //------------------LOOPS------------------------
-const rides = ["Honda", "Volvo", "Jaguar", "Bmw", "Vw", "Audi"];
+const rides = ["Honda", "Volvo", "Jaguar", "Bmw", "Vw", "Audi","Hyundai"];
 
 for (const car of rides) {
   console.log(car);
 } //Prints each element one by one using for...of loop
 //The variable car takes on the values Honda, Volvo etc., one after another
 //Creates a var car that saves each array element
+function toUpper(string) {
+    return string.toUpperCase();
+}
+const upperRides = rides.map(toUpper);
+console.log(upperRides); //Converts all items in array to uppercase
+//Uses map method which applies a function to every item in the array and returns new
+function withH(string) {
+    return string.startsWith("H");
+}
+const filtered = upperRides.filter(withH);
+console.log(filtered); //Filters out all items that do not start with H
+//Use filter() method to create a new array from the existing one but only includes elements that pass a test provided as a function
